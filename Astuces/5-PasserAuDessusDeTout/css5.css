@@ -4,12 +4,6 @@
     margin: 0;
 }
 
-* {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-}
-
 .btnRetour {
     width: 100px;
     height: 100px;
@@ -36,3 +30,16 @@
         box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.01);
     }
 }
+
+p {
+    font-size: 50px;
+    background: red !important;
+}
+
+.txt {
+    background: green
+}
+#monTxt {
+    background: saddlebrown;
+}
+

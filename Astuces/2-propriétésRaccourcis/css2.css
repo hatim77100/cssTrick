@@ -1,0 +1,99 @@
+.btnRetour {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: salmon;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    right: 25px;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 0 0 0 salmon;
+    animation: pulse 1.3s infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes pulse {
+    to
+    {
+        box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.01);
+    }
+}
+/*
+background-clip
+bg-color
+bg-image
+bg-origin
+bg-position
+bg-repeat
+bg-size
+bg-attachement
+*/
+
+.bloc {
+    width: 600px;
+    height: 400px;
+    background: #000 url(./pic1.jpg) no-repeat center / cover;
+}
+
+/*
+font-style
+font-weight
+font-size
+line-height
+font-family
+*/
+
+h1 {
+    font: italic bold 50px /2 arial, sans-serif;
+}
+
+/*
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state
+*/
+
+.bloc2 {
+    width: 200px;
+    height: 200px;
+    background: salmon;
+    animation: tourne 1s ease-in-out 1s infinite normal;
+}
+
+/*keyframes permet de gerer chaque seconde 
+@keyframes tourne {
+    0% {
+       transform: rotate(0deg); 
+    }
+    100% {
+        /* transform: rotate(360deg); 
+    }
+}
+
+/*
+/--------- par ex : transition quand on survol un element par ex il peut passer d'un etat à un autre---/
+transition-property
+transition-duration
+transition-timing-function
+transition-delay
+*/
+
+.bloc2 {
+    transition: backround 1s ease-in-out 0.2s;
+}
+.bloc2:hover {
+    background: lightgreen;
+}
+
+
