@@ -31,3 +31,15 @@
     }
 }
 
+
+.box {
+    width: 250px;
+    height: 250px;
+    background: orange;
+    margin: 100px auto 0 auto;
+    /* background-image: linear-gradient(45deg,red, blue); */
+    /* background-image: linear-gradient(to right, blue 33%, white 33%, white 66%, red 66%); */
+    background-image: radial-gradient(lightgreen, violet, blue); /*on peut pas mettre to right ...*/
+    border-radius: 50%;
+   
+}

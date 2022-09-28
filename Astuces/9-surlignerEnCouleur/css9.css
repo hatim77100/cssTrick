@@ -31,10 +31,20 @@
     }
 }
 
-
-.box {
-    width: 250px;
-    height: 250px;
-    background: orange;
-    margin: 100px auto 0 auto;
+.contenu {
+    padding: 50px 50px;
+    text-align: center;
+    font-family: sans-serif;
 }
+/* .contenu::selection {
+    background: salmon;
+} */
+
+/* Pour le donner à tout le body */
+
+::selection {
+    background: seagreen;
+    /* color: red; */
+    /* text-shadow: 5px 5px 5px orchid; */
+}
+
